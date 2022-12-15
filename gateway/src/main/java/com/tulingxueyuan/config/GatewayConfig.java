@@ -29,7 +29,7 @@ public class GatewayConfig {
 
                  System.out.println(t);
 
-                 HashMap<String,String> map=new HashMap<>();
+                 HashMap<String,String> map=new HashMap<String,String>();
                  map.put("code",HttpStatus.TOO_MANY_REQUESTS.toString());
                  map.put("message","限流了");
 
