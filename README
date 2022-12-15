@@ -1,11 +1,11 @@
-##前言
+## 前言
 spring-cloud-alibaba框架的demo。
 新项目基于本repo进行修改即可。
 
-##Video
+## Video
 https://www.bilibili.com/video/BV1Rv4y1d7pk?p=51&spm_id_from=pageDriver&vd_source=7864fcc8344630c34ea4192e10ed1fb8
 
-##SkyWalking
+## SkyWalking
 下载以下文件
 https://github.com/apache/skywalking/dokcer
 
@@ -20,7 +20,7 @@ OAP_IMAGE=apache/skywalking-oap-server:latest
 UI_IMAGE=apache/skywalking-ui:latest
 
 
-###agent
+## #agent
 ‐javaagent:D:\apache\apache‐skywalking‐apm‐es7‐8.4.0\apache‐skywalking‐apm‐bin‐es7\agent\skywalking‐agent.jar
 3 # 在skywalking上显示的服务名
 4 ‐DSW_AGENT_NAME=springboot‐skywalking‐demo
@@ -28,11 +28,11 @@ UI_IMAGE=apache/skywalking-ui:latest
 6 ‐DSW_AGENT_COLLECTOR_BACKEND_SERVICES=192.168.3.100:11800
 
 
-##nacos
+## nacos
 docker
 nacos/nacos-server:v2.1.2
 nacos-standalone
 http://localhost:8848/nacos
 
-##sentinel
+## sentinel
 java -Dserver.port=8858 -Dcsp.sentinel.dashboard.server=localhost:8858 -Dproject.name=sentinel-dashboard -jar /Volumes/MACDATA/Down/sentinel-dashboard-1.8.6.jar
