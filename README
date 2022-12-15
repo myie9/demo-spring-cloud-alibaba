@@ -9,6 +9,12 @@ docker compose up
 firefox 打开 http://localhost:8080    chrome白屏
 
 
+.env
+ES_VERSION=7.4.2
+OAP_IMAGE=apache/skywalking-oap-server:latest
+UI_IMAGE=apache/skywalking-ui:latest
+
+
 ###agent
 ‐javaagent:D:\apache\apache‐skywalking‐apm‐es7‐8.4.0\apache‐skywalking‐apm‐bin‐es7\agent\skywalking‐agent.jar
 3 # 在skywalking上显示的服务名
